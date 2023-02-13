@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT VOTING SYSTEM</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="voting">
+        <header>VOTING DESIGN</header>
+        <h4>Who is the next designer on set?</h4>
+        <form class="">
+
+            <div style="display: flex;" class="formField">
+
+                <input type="radio" id="odey" name="fav_language" value="Odey">
+                <label for="odey">Odey</label><br>
+
+            </div>
+            <div style="display: flex;" class="formField">
+
+                <input type="radio" id="afred" name="fav_language" value="Afred">
+                <label for="afred">Afred</label><br>
+
+            </div>
+            <div style="display: flex;" class="formField">
+
+                <input type="radio" id="Christopher" name="fav_language" value="Christopher">
+                <label for="Christopher">Christopher</label><br>
+            </div>
+
+            <div class="options">
+
+<!-- 
+                <button class="voteBtn">Vote</button> -->
+
+        </form>
+    </div>
+
+    <script>
+        const options = document.querySelectorAll("label");
+        for (let i = 0; i < options.length; i++) {
+            options[i].addEventListener("click", () => {
+                options[i].classList.add("selected")
+                // console.log(options[i]);
+                for (let k = 0; k < options.length; k++) {
+                    if (options[k].classList.contains(selected)) {
+                        options[j].classList.remove("selectall")
+                        // transition: all .2s ease;
+                    }
+
+                }
+                options[i].classList.add("selected");
+                for (let j = 0; j < options.length; j++) {
+                    options[j].classList.add("selectall")
+
+                }
+
+            });
+        }
+
+    </script>
+</body>
+
+</html>

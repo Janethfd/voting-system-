@@ -1,0 +1,33 @@
+body{
+    background-color: #b8e994;
+}
+#headerSection {
+    padding: 10px;
+
+}
+#headerSection h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+#info{
+    background-color: #fff;
+    width: 40%;
+    padding: 20px;
+    float: left;      
+}
+#info img{
+    /* overflow: content-box; */
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    float: centre;
+
+}
+#anotherSection{
+    background-color: #fff;
+    width: 50%;
+    padding: 20px;
+    margin: 14px;
+    align-items: center;
+    float: right;
+}
+/* another.html */

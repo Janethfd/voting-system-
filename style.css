@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    background-color:#b8e994;
+
+}
+#headerSection{
+    padding: 10px;
+
+}
+#headerSection h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    padding: 10px;
+    border-radius: 5px; 
+}
+#rolebox{
+    padding: 10px;
+    border-radius: 5px;
+    width: 14%;
+}
+#loginbtn{
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+}
+#Loginbtn{
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    float: left;
+    
+}
+#backbtn{
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    float: right;
+}
+#Profile{
+    background-color: #fff;
+    width: 30%;
+    padding: 20px;
+    float: left;
+}
+#Group{
+    background-color: #fff;
+    width: 60%;
+    padding: 20px;
+    float: right;
+}
+#votebtn{
+    padding: 5px;
+    font-size: 15px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+}
+
